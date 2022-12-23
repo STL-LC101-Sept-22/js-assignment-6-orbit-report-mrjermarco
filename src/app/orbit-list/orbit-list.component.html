@@ -10,7 +10,7 @@
         <td>
             {{satellite.name}}
         </td>
-        <td>
+        <td [class.warning] = "satellite.isSpaceDebris()">
             {{satellite.type}}
         </td>
         <td>
